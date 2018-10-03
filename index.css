@@ -1,0 +1,10 @@
+/* Placeholder for a banner image */
+#banner {
+    font-size: 5em;
+    color: #2fc427;
+    background-color: #34008e;
+    width: 1000px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border: 30px ridge #853fff;
+}
