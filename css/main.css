@@ -1,0 +1,95 @@
+body {
+    color: #474636;
+    font-family: 'Muli', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.todo-items {
+    padding:20px 0;
+}
+
+.item {
+    padding:15px;
+    background-color: #E4E7E4;
+    line-height:15px;
+    margin:0 30px;
+}
+
+
+.fa {
+    float: right;
+}
+.container {
+    padding:2rem 0;
+}
+
+.checked {
+    opacity: .3;
+    text-decoration: line-through;
+}
+#stack {
+    padding-top: 1rem;
+}
+#weather {
+    padding-bottom: 2rem;
+}
+#weatherData div {
+    float:left;
+}
+#minMax {
+    
+}
+#curTemp, #curCityName {
+    font-size: 2rem;
+    font-weight: bold;
+    display:block;
+}
+#weatherImg {
+    max-width: 100%;
+}
+
+#submitButton {
+-webkit-border-radius: 0 3px 3px 0;
+border-radius: 0 3px 3px 0;
+background-color: #3B4CCA;
+color: #FFF;
+font-weight: bold;
+    font-size: .9rem;
+    line-height: 2.9;
+}
+
+.form-control {
+    height: calc(2.25rem + 20px) !important;
+}
+
+#logo {
+    padding-bottom: 2rem;
+}
+#poke-container {
+overflow:hidden;
+max-width: 800px;
+    margin:auto;
+}
+#poke1 {
+    background-position: center;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    padding:1rem !important;
+}
+
+#poke-main {
+    background:rgba(255,255,255, 0.95);
+    margin: 40px;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    overflow: hidden;
+    
+}
+
+#poke-info {
+    padding: 20px;
+    padding-bottom: 40px;
+}
+#pokeId {
+    font-size: 14px;
+}
